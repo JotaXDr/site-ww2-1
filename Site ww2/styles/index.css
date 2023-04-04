@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#cabecalho {
+    height: 100px;
+    background: #ABABB1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    width: 100%;
+}
+
+#cabecalho .texto-inicio {
+    margin-top: 300px;
+    font-size: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.texto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    height: 30px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.linha-tempo {
+    position: relative;
+}
+
+.linha h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Jockey One', sans-serif;
+
+}
+
+.linha-reta {
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 23px;
+    z-index: 1;
+}
+
+.linha-tempo ul {
+    gap: 10px;
+    margin: 20px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+}
+
+.linha-tempo h4 {
+    width: 52px;
+    height: 52px;
+    background: #0D0D0D;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+.linha-tempo p {
+    font-size: 25px;
+}
+
+#parte-baixo {
+    background-color: #000531;
+
+}
+
+.foto1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.texto-baixo {
+    margin-top: 60px;
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.texto2 {
+    color: orange;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.texto3 {
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+
+.texto4 {
+    color: orange;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.texto5 {
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+
+.texto6 {
+    color: orange;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.texto7 {
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+
+.texto8 {
+    color: orange;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.texto9 {
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+
+.texto10 {
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+.texto11 {
+    color: orange;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.texto12 {
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.foto-soldado {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-image: url(../img/image\ 1.png);
+    background-size: cover;
+}
+
+.aviao {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.parte-branca {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imagem-1 {
+    width: 81.82px;
+    height: 100px;
+    margin-top: 380px;
+}
+
+.imagem-2 {
+    width: 690px;
+    height: 421px;
+    left: 416px;
+    margin-top: 50px;
+}
+
+.imagem-3 {
+    width: 106.06px;
+    height: 150px;
+    left: 1334px;
+    margin-top: 340px;
+}
+
+.parte-azul1 {
+    background-color: #000531;
+    width: 100%;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4E4E4E;
+}
+
+.rodape .conteudo {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.rodape ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 29px;
+    gap: 9px;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+.rodape h4 {
+    text-align: center;
+}
+
+.rodape .icones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape .icones img {
+    height: 30px;
+}
+
+.rodape p,
+.rodape h4,
+.rodape ul li {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.rodape .cabecalho-meio {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 769px) {
+    #cabecalho .texto-inicio {
+        margin-top: 400px;
+        font-size: 20px;
+        padding-left: 11px;
+
+    }
+
+    .imagem-2 {
+        width: 497px;
+        height: 318px;
+    }
+
+    .texto-baixo {
+        padding: 10px 15px;
+    }
+
+    .texto p {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .texto2 {
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .linha h3 {
+        font-size: 30px;
+    }
+
+    .linha-tempo ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .linha-tempo h4 {
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+    }
+
+    .linha-tempo p {
+        font-size: 18px;
+    }
+
+    .texto-baixo {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .texto2 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .texto3 {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .texto4 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .texto5 {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .texto6 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .texto7 {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .texto8 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .texto9 {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .foto-soldado {
+        min-height: auto;
+        height: auto;
+    }
+
+    .soldado-footer {
+        display: none;
+    }
+}
+
+@media (max-width: 426px) {
+    #cabecalho .texto-inicio {
+        margin-top: 126px;
+        font-size: 30px;
+    }
+
+    .aviao {
+        width: 400px;
+    }
+
+    .imagem-1 {
+        width: 100px;
+    }
+
+    .imagem-2 {
+        width: 260px;
+        height: 270px;
+    }
+
+    .imagem-3 {
+        width: 89px;
+    }
+
+    .rodape ul {
+        margin-left: 40px;
+    }
+
+    .texto p {
+        font-size: 20px;
+        padding: 50px 20px;
+    }
+
+    .linha-tempo h3 {
+        font-size: 30px;
+    }
+
+    .linha-tempo p {
+        font-size: 20px;
+    }
+
+    .texto-baixo {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .aviao {
+        width: 330px;
+    }
+}
+
+.imagem-1 {
+    width: 60px;
+}
+
+.imagem-2 {
+    width: 240px;
+    height: 270px;
+}
+
+.imagem-3 {
+    width: 60px;
+}
+
+.rodape ul {
+    margin-left: 40px;
+}
+@media (max-width: 321px){
+    #cabecalho .texto-inicio{
+      font-size: 20px;
+    }
+    .aviao{
+        width: 290px;
+    }
+    .imagem-1 {
+        display: none;
+    }
+    
+    .imagem-2 {
+        width: 220px;
+        height: 296px;
+        margin-left: 60px;
+        
+    }
+    
+    .imagem-3 {
+       display: none;
+    }
+    
+    .rodape h4 {
+        margin-left: 2px;
+        font-size: 4vw; 
+    }
+    .rodape ul li{
+        font-size: 4vw;
+        margin-left: 1px;
+    }
+}
